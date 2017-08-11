@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Soding</title>
+
+    <!-- Links of google fonts-->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,900' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,100,100italic,300,400,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'> -->
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <!--importing CSS styles-->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="stylesheet" href="responsive.css">  -->
+
+  </head>
+  <body>
+
+  <!--main body markup-->
+    <div class="container">
+        <div class="home-social-buttons">
+            <div class="home-tweet-button dib mr-1">
+                <a href="tweet">
+                    <img src="./img/tweetbutton.png" alt="tweet">
+                </a>
+            </div>
+            <div class="home-like-button dib">
+                <a href="fb">
+                    <img src="./img/like.png" alt="fb-like">
+                </a>
+            </div>
+        </div>
+
+        <div class="payment-card mtop-3">
+            <div class="payment-header">
+                <h3 class="dib mr-1 ml-1 pbot-1">
+                    The MAD Festival 2012 Photos
+                </h3>
+                <span class="mr-1 payment-tkt-left">
+                    200 LEFT
+                </span>
+                <span class="payment-card-edit">
+                    <a href="edit">edit</a>
+                </span>
+                <span>
+                    <h1 class="ribbon">
+                    <strong class="ribbon-content">$1+</strong>
+                </h1>
+                </span>
+            </div>
+            <div class="payment-body">
+
+                    <div class="payment-close">
+                        <button class="close-bttn">
+                            <img src="./img/error.svg" alt="close">
+                        </button>
+                    </div>
+
+
+                <div class="payment-to">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="font-col">TO:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="hello@avimanyoughoshal.com">
+                        </div>
+                    </form>
+                </div>
+                <div class="payment-to-new padtop-1">
+                    <div class="payment-details">
+                        <h4 class="payment-big">
+                            Payment Details
+                        </h4>
+                        <div class="card-img">
+                            <img src="./img/credit-card.svg" alt="credit-card">
+                        </div>
+                    </div>
+                    <div class="payment-card-info pad-1">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1" class="font-col">CARD NUMBER:</label>
+                                <input type="number" class="form-control" id="examplecardnumber" placeholder="1234567890">
+                            </div>
+                        </form>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1" class="font-col">CV CODE:</label>
+                                    <input type="number" class="form-control" id="examplecardnumber1" placeholder="123">
+                                </div>
+                            </div>
+                            <div class="col-lg-5"></div>
+                            <div class="col-lg-4">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1" class="font-col">EXPAIRY DATE:</label>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <input type="number" class="form-control" id="examplecardnumber2" placeholder="10">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="number" class="form-control" id="examplecardnumber3" placeholder="12">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row payment-last">
+                    <div class="col-lg-6">
+                        <label>
+                            Name your price:
+                        </label>
+                        <p class="font-col">
+                            ($1 or more)
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="dib">
+                            <div class="input-group wid-100">
+                                <span class="input-group-addon">$</span>
+                                <input type="text" class="form-control" placeholder="5"/>
+                            </div>
+                        </div>
+                        <div class="dib">
+                            <button type="button" class="btn btn-success pay-bttn">Pay</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+  <!--main body markup ends-->
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+    <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+  	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="bower_components/jquery-circle-progress/dist/circle-progress.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.js"></script>
+  	<script src="js/main.js"></script>
+</body>
+</html>
