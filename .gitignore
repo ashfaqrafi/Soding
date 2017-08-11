@@ -12,3 +12,4 @@ bower_components/
 .csscomb.json
 dest/
 .sass-cache
+README.md
